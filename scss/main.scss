@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+@import "./variables";
+@import "./normalize";
+@import "./formalize";
+@import "./header";
+@import "./content";
+
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+a, p{
+    font-size: $my-font;
+}
+html{
+    overflow-x: hidden;
+}
+
+
